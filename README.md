@@ -1,10 +1,13 @@
 Step 1- Basic React project setup
+
 Step 2- npm install @reduxjs/toolkit react-redux
+
 Step 3- Create a Folder app and file inside - store.js with: 
                     import {configureStore } from "@reduxjs/toolkit";
                     export const store=configureStore({
                         reducer:{
                               }
+                              
 Step 4- Now inside src- make a new folder- features > counter- file> counterSlice.js with code declaration - initial state; reducer [ redux logic ]
 
                       import { createSlice } from "@reduxjs/toolkit";
