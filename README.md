@@ -3,6 +3,7 @@ Step 1- Basic React project setup
 Step 2- npm install @reduxjs/toolkit react-redux
 
 Step 3- Create a Folder app and file inside - store.js with: 
+
                     import {configureStore } from "@reduxjs/toolkit";
                     export const store=configureStore({
                         reducer:{
